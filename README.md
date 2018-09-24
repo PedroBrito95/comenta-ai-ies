@@ -4,11 +4,11 @@
 Back-end para servir app de avaliações de Instituições de Ensino Superior, realizada por alunos, para alunos.
 
 # Pre-requisites:
-nodejs -> Versão v8.0.0,
-npm -> Versão v5.0.0,
-ejs ->  Versão 2.6.1,
-express -> Versão 4.16.3,
-nodemon -> Versão 1.18.4
+- nodejs -> Versão v8.0.0
+- npm -> Versão v5.0.0
+- ejs ->  Versão 2.6.1
+- express -> Versão 4.16.3
+- nodemon -> Versão 1.18.4
 
 ## Getting Started
 
