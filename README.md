@@ -23,6 +23,48 @@ npm install
 npm start
 ```
 
+As rotas podem ser testadas através dos links abaixo:
+
+- Alunos:
+```
+http://localhost:3000/alunos/listar
+```
+```
+http://localhost:3000/alunos/criar
+```
+```
+http://localhost:3000/alunos/editar
+```
+```
+http://localhost:3000/alunos/remover
+```
+- IES
+```
+http://localhost:3000/ies/listar
+```
+```
+http://localhost:3000/ies/criar
+```
+```
+http://localhost:3000/ies/editar
+```
+```
+http://localhost:3000/ies/remover
+```
+- Avaliações
+```
+http://localhost:3000/avaliacoes/listar
+```
+```
+http://localhost:3000/avaliacoes/criar
+```
+```
+http://localhost:3000/avaliacoes/editar
+```
+```
+http://localhost:3000/avaliacoes/remover
+```
+
 ### Improvements:
 Projeto em início de desenvolvimento, acompanhar commits para verificar o andamento.
 
