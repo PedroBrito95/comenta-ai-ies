@@ -1,0 +1,25 @@
+{
+  "name": "comenta-ai-ies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techCarlosEduardo/comenta-ai-ies.git"
+  },
+  "author": "Carlos Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techCarlosEduardo/comenta-ai-ies/issues"
+  },
+  "homepage": "https://github.com/techCarlosEduardo/comenta-ai-ies#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
