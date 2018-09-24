@@ -1,17 +1,17 @@
 const listar = (req, res) => {
-    res.send('Listando avaliações')
+    res.render('avaliacoes/listar')
 }
 
 const criar = (req, res) => {
-    res.send('Criando avaliação')
+    res.render('avaliacoes/criar')
 }
 
 const editar = (req, res) => {
-    res.send('Editando avaliação')
+    res.render('avaliacoes/editar')
 }
 
 const remover = (req, res) => {
-    res.send('Removendo avaliação')
+    res.render('avaliacoes/remover')
 }
 
 module.exports = {

@@ -1,7 +1,7 @@
 # Comenta-ai-ies
 
 ## Sobre
-Back-end para servir app de avaliações de Instituições de Ensino Superior, realizada por alunos, para alunos.
+Back-end para servir app de avaliação de Instituições de Ensino Superior, realizada por alunos, para alunos.
 
 # Pre-requisites:
 - nodejs -> Versão v8.0.0

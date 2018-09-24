@@ -1,17 +1,17 @@
 const listar = (req, res) => {
-    res.send('Listando ies')
+    res.render('ies/listar')
 }
 
 const criar = (req, res) => {
-    res.send('Criando ies')
+    res.render('ies/criar')
 }
 
 const editar = (req, res) => {
-    res.send('Editando ies')
+    res.render('ies/editar')
 }
 
 const remover = (req, res) => {
-    res.send('Removendo ies')
+    res.render('ies/remover')
 }
 
 module.exports = {
