@@ -14,7 +14,23 @@ Back-end para servir app de avaliação de Instituições de Ensino Superior, re
 ## Getting Started
 
 - Baixar projeto
-- Instalar Nodejs + NPM, versões descritas nos pré-requisitos
+- Instalar Nodejs + NPM(versões descritas nos pré-requisitos).
+- Instalar o MYSQL. A instalação pode ser nativa, através de máquina virtual (vagrant por exemplo) ou com o xammp. No meu caso, usei o xammp, mas é opcional.
+- Crie o Banco de dados acessando o mysql através do terminal:
+```
+  mysql -u root -p
+```
+- Execute o script "Script_BD.sql" para criar o banco de dados com o nome "comenta-ai"
+- Em alguns casos, após criar o banco de dados, será necessário dar permissões para o usuário root poder executar as queries no BD. Execute os comandos abaixo:
+```
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+```
+```
+FLUSH PRIVILEGES;
+```
+- Lembrando que as opções acima podem mudar, pois no meu teste estou aplicando os privilégios para todos os BDs, para o usuário root, e em qualquer domínio. Não estou considerando um ambiente de produção. 
+- No arquivo .js responsável pela conexão com o banco de dados, estou apontando para o host, usuário e senha da minha instalação do MySQL, corrija esse arquivo de acordo com a sua instalação.
+
 - Acessar pasta do projeto e executar:
 ```
 npm install
