@@ -20,7 +20,7 @@ Back-end para servir app de avaliação de Instituições de Ensino Superior, re
 ```
   mysql -u root -p
 ```
-- Execute o script "Script_BD.sql" para criar o banco de dados com o nome "comenta-ai"
+- Execute o script "Script_BD.sql" para criar o banco de dados com o nome "comenta-ai". Script disponível na pasta "/scripts_BD".
 - Em alguns casos, após criar o banco de dados, será necessário dar permissões para o usuário root poder executar as queries no BD. Execute os comandos abaixo:
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
@@ -30,8 +30,9 @@ FLUSH PRIVILEGES;
 ```
 - Lembrando que as opções acima podem mudar, pois no meu teste estou aplicando os privilégios para todos os BDs, para o usuário root, e em qualquer domínio. Não estou considerando um ambiente de produção. 
 - No arquivo .js responsável pela conexão com o banco de dados, estou apontando para o host, usuário e senha da minha instalação do MySQL, corrija esse arquivo de acordo com a sua instalação.
+- Caso queiram popular o BD, na pasta "/scripts_BD/scripts_para_popular_BD", existem 4 scripts para popular as 4 tabelas criadas até o momento. Se futuramente novas tabelas forem criadas, irei incrementar os scripts.
 
-- Acessar pasta do projeto e executar:
+- Para iniciar o projeto, basta acessar pasta do projeto e executar:
 ```
 npm install
 ```
