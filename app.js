@@ -12,12 +12,14 @@ const homeRouter = require('./routes/index')
 const alunosRouter = require('./routes/alunos')
 const iesRouter = require('./routes/ies')
 const avaliacoesRouter = require('./routes/avaliacoes')
+const cursosRouter = require('./routes/cursos')
 
 // Usar rotas
 app.use('', homeRouter)
 app.use('/alunos', alunosRouter)
 app.use('/ies', iesRouter)
 app.use('/avaliacoes', avaliacoesRouter)
+app.use('/cursos', cursosRouter)
 
 // Iniciar app
 
