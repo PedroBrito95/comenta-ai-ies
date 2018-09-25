@@ -9,6 +9,7 @@ Back-end para servir app de avaliação de Instituições de Ensino Superior, re
 - ejs ->  Versão 2.6.1
 - express -> Versão 4.16.3
 - nodemon -> Versão 1.18.4
+- MySQL -> Versão 10.1.35-MariaDB Source distribution
 
 ## Getting Started
 
