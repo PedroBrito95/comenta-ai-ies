@@ -1,18 +1,19 @@
 # Comenta-ai-ies
 
-## Sobre
+## About
 Back-end para servir app de avaliação de Instituições de Ensino Superior, realizada por alunos, para alunos.
 
-# Pre-requisites:
-- nodejs -> Versão v8.0.0
+# Getting Started
+
+## Pre-requisites:
+- Nodejs -> Versão v8.0.0
 - npm -> Versão v5.0.0
 - ejs ->  Versão 2.6.1
 - express -> Versão 4.16.3
 - nodemon -> Versão 1.18.4
 - MySQL -> Versão 10.1.35-MariaDB Source distribution
 
-## Getting Started
-
+## Installing
 - Baixar projeto
 - Instalar Nodejs + NPM(versões descritas nos pré-requisitos).
 - Instalar o MYSQL. A instalação pode ser nativa, através de máquina virtual (vagrant por exemplo) ou com o xammp. No meu caso, usei o xammp, mas é opcional.
