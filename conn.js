@@ -6,20 +6,19 @@ const connection = mysql.createConnection({
     database: 'comenta-ai'
 })
 
-connection.connect((err) => {
+connection.connect(err => {
     if(err){
-        console.log('Erro ao se conectar')
+        console.log('Erro ao conectar no Banco de dados.')
         console.log(err)
     }else{
-        console.log('Conectado com sucesso!')
-        
-        const query = connection.query('Select * from alunos')
+        console.log('Conexão com o Banco de Dados realizada com sucesso!')
+
+        const query = connection.query('SELECT * FROM alunos')
         query.on('result', (row) => {
             console.log(row)
         })
-
         query.on('end', () => {
             connection.end()
-        }) 
+        })
     }
 })
