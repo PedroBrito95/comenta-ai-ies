@@ -12,9 +12,14 @@ connection.connect((err) => {
         console.log(err)
     }else{
         console.log('Conectado com sucesso!')
-        connection.query('Select * from alunos', (err, res) => {
-            console.log(err, res)
+        
+        const query = connection.query('Select * from alunos')
+        query.on('result', (row) => {
+            console.log(row)
         })
-        connection.end()
+
+        query.on('end', () => {
+            connection.end()
+        }) 
     }
 })
